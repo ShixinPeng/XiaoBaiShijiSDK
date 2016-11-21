@@ -1,0 +1,6 @@
+framework module XBVideoAdvertSDK {
+  umbrella header "XBVideoAdvertSDK.h"
+
+  export *
+  module * { export * }
+}
