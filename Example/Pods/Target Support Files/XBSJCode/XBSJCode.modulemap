@@ -1,0 +1,6 @@
+framework module XBSJCode {
+  umbrella header "XBSJCode-umbrella.h"
+
+  export *
+  module * { export * }
+}
