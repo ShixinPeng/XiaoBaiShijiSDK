@@ -1,0 +1,2 @@
+# XiaobaiShijiSDK
+此SDK是北京小白世纪网络科技有限公司官方部署SDK,小白世纪SDK提供娱乐视频新玩法
