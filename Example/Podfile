@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'XBSJCode_Example' do
+  pod 'XBSJCode', :path => '../'
+
+  target 'XBSJCode_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
