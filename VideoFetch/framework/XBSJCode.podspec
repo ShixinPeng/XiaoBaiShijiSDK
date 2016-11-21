@@ -91,10 +91,13 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Pod/**/*"
+#s.exclude_files = "Classes/Exclude" #排除文件
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "Pod/XBVideoAdvertSDK.framework/Headers/XBAdManager.h" , "Pod/XBVideoAdvertSDK.framework/Headers/XBVideoAdvertSDK.h"
+    s.resource_bundles = {
+    'XBBundle' => ['Pod/XBBundle.bundle']
+    }
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
